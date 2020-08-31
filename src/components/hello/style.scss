@@ -1,0 +1,10 @@
+$red: red;
+$font-size: 24px;
+
+.hello {
+  font-size: $font-size;
+
+  & .nested {
+    color: $red;
+  }
+}
